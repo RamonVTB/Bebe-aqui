@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@media print {
+  /* Hide normal layout when printing QR displays */
+  body * {
+    visibility: hidden;
+  }
+  #printable-qr-section, #printable-qr-section * {
+    visibility: visible !important;
+  }
+  #printable-qr-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    color: black !important;
+  }
+}

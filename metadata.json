@@ -1,0 +1,6 @@
+{
+  "name": "BebêAqui — Sistema SaaS para Distribuidoras e Bares",
+  "description": "Plataforma SaaS moderna para distribuidoras de bebidas e bares: cardápio digital, mesas, pedidos em tempo real, estoque e relatórios de vendas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
